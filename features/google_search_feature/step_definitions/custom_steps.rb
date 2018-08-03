@@ -2,7 +2,7 @@ require "selenium-cucumber"
 require_relative "../page_objects/google_page.rb"
 
 Before do
-  @google_page = GooglePage.new($start_up_platform)
+  @google_page = GooglePage.new
 end
 
 Given("I go to Google web site") do
